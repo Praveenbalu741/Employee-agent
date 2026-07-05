@@ -18,6 +18,7 @@ frontend/.env
 
 # Build outputs
 frontend/dist/
+frontend/build/
 
 # OS files
 .DS_Store
@@ -31,5 +32,12 @@ pids/
 *.pid
 *.seed
 
-# Misc
-package-lock.json
+# Deployment scripts
+push.bat
+
+# Database
+*.db
+*.sqlite
+
+# Backend output
+backend-output.log
